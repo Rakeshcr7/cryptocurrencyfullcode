@@ -1,0 +1,108 @@
+<br><br>
+<h1 class="deepshd mb-4">Crypto App</h1>
+<div class="container m-2">
+  <h3 class="text-danger"><u>Features of the application</u>
+  </h3>
+  <p class="font">
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary mb-2 mr-2" data-toggle="modal" data-target="#exampleModal1">
+    1) Crypto-Currency List View
+  </button>
+<button type="button" class="btn btn-primary mb-2 mr-2" data-toggle="modal" data-target="#exampleModal2">
+    2) Comparison View
+  </button>
+<button type="button" class="btn btn-primary mb-2 mr-2" data-toggle="modal" data-target="#exampleModal3">
+    3) Price Chart View
+  </button>
+  </p>
+</div>
+
+<!-- Modal crypto currency list-->
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Crypto-Currency List View</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          1. A table showing coins with columns of current price and marketcap.<br>
+          2. Table should be paginated<br>
+          3. Table should have sorting on price and marketcap columns<br>
+          4. User should be able to filter rows based on price and marketcap ranges, presented
+          through a range slider.<br>
+          5. User should be able to mark some coins as favorites which should persist in
+          localstorage of browser<br>
+          6. If user has favorites selected, then, table should only show his favourites, by default.<br>
+          7. Upon clicking on any row, its Price Chart View , should open.<br>
+          8. Upon Long press on any row, all rows should get a checkbox also. Also, a
+          comparison button should appear. Now user should be able to select, any two
+          cryptocurrencies from table, for comparison. Upon selection, a Comparison view of
+          the two cryptocurrencies should open
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Comparision View-->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Crypto-Currency List View</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            Should have a Price Chart View of the two selected cryptocurrencies, drawn on one
+            chart only, for last 24 hrs, 7 days, and current price
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal Price Chart View-->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Crypto-Currency List View</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              It should have price of coin against time, for last 24 hrs, 7days, and current price
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="container ml-2 mt-4">
+  <h4 class="text-danger">
+    <u>This is a Crypto Currency application created with the help of <a target="_blank" href="https://coinmarketcap.com/api/">coinmarketcap-API</a></u>
+  </h4>
+  <h5 class="text-info mt-1">
+    <u>It covers the following concepts for learning Angular:</u>
+  </h5>
+  <p class="font">
+    1) Basic setup of angular application
+    <br/> 2) Basics of components and routing
+    <br/> 3) Concepts of creating templates and interpolation
+    <br/> 4) Concept of Services
+    <br/> 5) Interaction with REST APIs
+    <br/> 6) Implementation of Pagination, Rang Slider, Charts etc...
+  </p>
+</div>

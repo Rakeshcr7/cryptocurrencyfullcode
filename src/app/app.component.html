@@ -1,0 +1,26 @@
+
+<nav class="navbar bg-dark navbar-dark navbar-expand-md fixed-top" style="background: linear-gradient(to right, #410202, black);">
+  <div class="container-fluid">
+    <!--container of navbar-->
+    <div class="navbar-brand m-0 p-0">
+      <a class="nav-item nav-link text-white" [routerLink]="['/list']">Crypto Application</a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglernav" aria-controls="myTogglernav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--for collapsing-->
+    <div class="collapse navbar-collapse" id="myTogglernav">
+      <div class="navbar-nav ml-auto ">
+        <a class="nav-item nav-link " [routerLink]="['/list']">Home</a>
+        <a class="nav-item nav-link " [routerLink]="['/favourites']">Favourites</a>
+        <a class="nav-item nav-link " [routerLink]="['/about']">About</a>
+      </div>
+      <!-- navbar-->
+    </div>
+    <!--collapse-->
+  </div>
+  <!--container-->
+</nav>
+<!--nav-->
+<router-outlet></router-outlet>

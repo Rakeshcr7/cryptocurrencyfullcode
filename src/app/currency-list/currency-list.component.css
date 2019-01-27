@@ -1,0 +1,55 @@
+h1 {
+    font-weight: 600;
+}
+.fa-heart {
+    color: #ccc;
+}
+
+.fa-heart.active {
+    color: red;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.b-2 {
+    margin-bottom: 2rem !important;
+}
+
+.t-2 {
+    margin-top: 2rem !important;
+}
+
+.l-2 {
+    margin-left: 3rem !important;
+}
+
+.l-4 {
+    margin-left: 18rem !important;
+}
+
+label {
+    font: 1em sans-serif;
+}
+
+.m-2{
+    margin-right: 3rem !important;
+}
+
+.m-3{
+    margin-right: 4rem !important;
+}
+
+.m-4{
+    margin-right: 18rem !important;
+}
+
+.table-condensed{
+  font-size: 0.83rem;
+}
+
+HTML, BODY {
+    height: 100%;
+}
+
